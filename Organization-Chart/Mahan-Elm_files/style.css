@@ -1,0 +1,342 @@
+﻿/* ----------------------------------------------------------- Navigation Bar */
+ 
+BODY
+{
+color: #0071C2;
+background-color: #FFF;
+font-family: Arial;
+font-size: 10pt;
+font-weight: bold;
+margin: 0px;
+padding: 0px;
+}
+ 
+hr {
+border: none;
+height: 1px;
+background-color: #D4D4D0;
+margin: 10px 0px 10px 0px;
+}
+ 
+BODY.N
+{
+ 
+ 
+ 
+}
+ 
+TABLE.N
+{
+background-color: #0071C2;
+height: 60px;
+margin-top: 65px;
+}
+ 
+TABLE.N::before {
+content: "MindGenius";
+position: absolute;
+top: 10px;
+left: 10px;
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 35px;
+font-weight: 600;
+}
+ 
+A
+{
+color: #5B636B;
+background-color: transparent;
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+text-decoration: none;
+}
+ 
+A:HOVER
+{
+ 
+ 
+ 
+ 
+ 
+text-decoration: underline
+}
+ 
+ 
+A.N
+{
+color: #B8D8E9;
+background-color: transparent;
+}
+ 
+A.N:HOVER
+{
+color: white;
+background-color: transparent;
+}
+ 
+ 
+/* ------------------------------------------------------------- Map Explorer */
+ 
+ 
+ 
+BODY.E
+{
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+background-color: #FFF;
+padding: 10px;
+}
+ 
+TD.E
+{
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+text-decoration: none;
+}
+ 
+A.E
+{
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+text-decoration: none;
+}
+ 
+A.E:HOVER
+{
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+text-decoration: underline
+}
+ 
+.specialClass
+{
+font-family: garamond;
+font-size: 12pt;
+color: #B8D8E9;
+font-weight: bold;
+text-decoration: underline
+}
+ 
+/* --------------------------------------------------------- Properties Frame */
+ 
+BODY.P
+{
+color: #5B636B;
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+padding: 10px;
+margin-top: 30px;
+ 
+ 
+}
+ 
+A.P
+{
+ 
+background-color: transparent;
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+text-decoration: none;
+}
+ 
+A.P:HOVER
+{
+color: white;
+background-color: transparent;
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+text-decoration: underline
+}
+ 
+/* ----------------------------------------------------------------- Document */
+ 
+BODY.D
+{
+color: #5B636B;
+background-color: white;
+padding: 10px;
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+}
+ 
+A.D
+{
+color: #5B636B;
+background-color: white;
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+text-decoration: none;
+}
+ 
+A.D:HOVER
+{
+color: #5B636B;
+background-color: white;
+font-family: 'Segoe UI', Verdana, Arial;
+font-size: 12px;
+font-weight: 600;
+text-decoration: underline
+}
+ 
+.Core { color: #5B636B; background-color: white; font-family: 'Segoe UI', Verdana, Arial; font-size: 20px; }
+.Level1 { color: #5B636B; background-color: white; font-family: 'Segoe UI', Verdana, Arial; font-size: 20px; }
+.Level2 { color: #5B636B; background-color: white; font-family: 'Segoe UI', Verdana, Arial; font-size: 20px; }
+.Level3 { color: #5B636B; background-color: white; font-family: 'Segoe UI', Verdana, Arial; font-size: 20px; }
+.Level4 { color: #5B636B; background-color: white; font-family: 'Segoe UI', Verdana, Arial; font-size: 20px; }
+.Level5 { color: #5B636B; background-color: white; font-family: 'Segoe UI', Verdana, Arial; font-size: 20px; }
+.Level6 { color: #5B636B; background-color: white; font-family: 'Segoe UI', Verdana, Arial; font-size: 20px; }
+.Level7 { color: #5B636B; background-color: white; font-family: 'Segoe UI', Verdana, Arial; font-size: 20px; }
+.Level8 { color: #5B636B; background-color: white; font-family: 'Segoe UI', Verdana, Arial; font-size: 20px; }
+.Level9 { color: #5B636B; background-color: white; font-family: 'Segoe UI', Verdana, Arial; font-size: 20px; }
+ 
+/* ---------------------------------------------------------------------- Map */
+ 
+BODY.M
+{
+color: #5B636B;
+background-color: white;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+ 
+A.M
+{
+color: #5B636B;
+background-color: white;
+font-family: Arial;
+font-size: 10pt;
+font-weight: bold;
+text-decoration: none;
+}
+ 
+A.M:HOVER
+{
+color: #5B636B;
+background-color: white;
+font-family: Arial;
+font-size: 10pt;
+font-weight: bold;
+text-decoration: underline
+}
+
+.logo
+{
+	height: 60px;
+	background-color: #29509E
+}
+
+.body
+{
+	width:100%;
+	float:left
+}
+
+.left 
+{
+	float:left;
+	width:150px;
+	overflow: hidden;
+    height: Calc(100% - 60px);
+}	
+
+#explorer-container
+{
+	height: 150px;
+}	
+
+.frame_E
+{
+	border-bottom-width:1px;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-style:solid;
+	border-color:#CACACA;
+	width: 100%;
+	height: 100%;
+}	
+
+.frame_P
+{
+	border-bottom-width:0px;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-style:solid;
+	border-color:#CACACA;
+	display:block;
+	width: 100%;
+	height: 100%;
+}	
+
+.right
+{
+	overflow:hidden
+}	
+
+.frame_M
+{
+	border-bottom-width:0px;
+	border-top-width:0px;
+	border-left-width:1px;
+	border-right-width:0px;
+	border-style:solid;
+	border-color:#CACACA;
+	overflow:hidden;
+	width:100%;
+	height:calc(100% - 60px);
+}
+
+iframe
+{
+	width: 100%;
+}	
+
+.gantt
+{
+	height: Calc(100% - 60px);
+	overflow-x: scroll;
+}	
+
+.ui-resizable {
+    position: relative;
+}
+
+.ui-resizable-n {
+    cursor: n-resize;
+    height: 7px;
+    width: 100%;
+    top: -5px;
+    left: 0;
+}
+.ui-resizable-handle {
+    position: absolute;
+    font-size: 0.1px;
+    display: block;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+.ui-resizable-s {
+    cursor: s-resize;
+    height: 7px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+}
+.ui-resizable-e {
+    cursor: e-resize;
+    width: 40px;
+    right: -10px;
+    top: 0;
+    height: 100%;
+}
